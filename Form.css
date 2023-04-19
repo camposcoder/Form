@@ -1,0 +1,65 @@
+body{ 
+    font-family: "Century Gothic";
+    background-color: #7c6cc7;
+}
+
+h1 {
+    font-family: "agency FB";
+}
+
+form{
+    width: 900px;
+    padding: 50px;
+    position: relative;
+    background-color:#7c6cc7
+
+fieldset{
+    background-color: #ff0000;
+    margin: 30px;
+    border: solid 1px #7cf05f;
+    border-radius: 10px;
+}
+
+input[Type='text'] , input[Type='password'] {
+    position: absolute;
+    left: 150px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 5px;
+    border: solid 1px #ffffff;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+input[Type='submit'] , input[Type='reset'] {
+    padding: 15px;
+    background-color: lightgrey;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.m{
+    background-color: #E0FFFF;
+    margin: 30px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Lop{
+    padding: 5px;
+    border: solid 1px #fff;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+textarea {
+    margin-left: 30px;
+}
