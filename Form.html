@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="netx.png">
+    <link rel="stylesheet" href="Form.css">
+    <title>CS</title>
+</head>
+<body>
+    <center><h1>camposcoder</h1></center>
+    <form action="Obrigado.html" method="post">
+        <hr>
+    <fieldset>
+        <legend>Dados Do Cliete</legend>
+        <p><label for="Nome">Nome:</label><input type="text" name="nome"></p>
+        <p><label for="Nome">Email:</label><input type="text" name="Email"></p>
+        <p><label for="Nome">Telefone:</label><input type="text" name="Telefone"></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Services</legend>
+        <h2>Selecione o serviço a ser aplicado: </h2>
+        <select name="Code">
+            <option value="01"></option>
+            <option value="02">Back-End</option>
+            <option value="03">Front-End</option>
+            <option value="04">Full Stack</option>
+            <option value="05">Banco de Dados</option>
+            <option value="06">JavaScript</option>
+        </select>
+    </fieldset>
+
+    <h2 class="Lop">Selecione o tipo de site:</h2>
+    <p class="G"><input type="radio" name="modelo" value="E">E-Commerce</p>
+    <p class="G"><input type="radio" name="modelo" value="N">Sites de negócios</p>
+    <p class="G"><input type="radio" name="modelo" value="B">Blogs</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Portfólios</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Sites de eventos</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Fóruns de discussão</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Sites pessoais</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Sites de filiação</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Sites sem fins lucrativos</p>
+    <p class="G"><input type="radio" name="modelo" value="E">Sites informativos</p>
+
+    <h2 class="lp">Nos descreva um pouco sobre o modelo desejado:</h2>
+    <textarea name="Desejo"></textarea>
+
+    <h2 class="lp">Nos segue em quais redes sociais ?</h2>
+    <p class="m"><input type="checkbox" name="obrigatorias" value="IT">Instagram</p>
+    <p class="m"><input type="checkbox" name="obrigatorias" value="TW">Twiter</p>
+    <p class="m"><input type="checkbox" name="obrigatorias" value="FC">Facebook</p>
+    <p class="m"><input type="checkbox" name="obrigatorias" value="YT">Youtube</p>
+    <p class="m"><input type="checkbox" name="obrigatorias" value="OT">Outros</p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    <hr>
+
+    </form>
+</body>
+</html>
